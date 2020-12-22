@@ -1,0 +1,61 @@
+html,body {
+    height: 100%;
+    background: #EFF1F4;
+}
+table {
+    background: white;
+    color: black;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+thead {
+    background: black;
+    color: white;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+form{
+    width: 90%;
+    margin: 0 auto;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+input{
+    margin: 10px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    text-decoration: underline;
+}
+
+.alert{
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.alert-success{
+    background: lightgreen;
+}
+.alert-error{
+    background: red;
+}
